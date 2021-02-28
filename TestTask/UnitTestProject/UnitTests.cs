@@ -24,7 +24,7 @@ namespace UnitTestProject
 
             //Assert
             string actual = fileProcessor.ReturnType();
-            Assert.AreEqual(expected, actual, "Wrong extension (expected:" + expected);
+            Assert.AreEqual(expected, actual, "Wrong type (expected:" + expected);
         }
 
         [TestMethod]
@@ -44,7 +44,7 @@ namespace UnitTestProject
 
             //Assert
             string actual = fileProcessor.ReturnType();
-            Assert.AreEqual(expected, actual, "Wrong extension (expected:" + expected);
+            Assert.AreEqual(expected, actual, "Wrong type (expected:" + expected);
         }
 
         [TestMethod]
@@ -64,7 +64,7 @@ namespace UnitTestProject
 
             //Assert
             string actual = fileProcessor.ReturnType();
-            Assert.AreEqual(expected, actual, "Wrong extension (expected:" + expected);
+            Assert.AreEqual(expected, actual, "Wrong type (expected:" + expected);
         }
 
         [TestMethod]
